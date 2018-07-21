@@ -42,3 +42,14 @@ for index, date in enumerate(s7):
 # index没有实际意义
 
 
+s8 = set([1, 2, 3])
+s9 = set([2, 3, 4])
+# 交集
+a1 = s8 & s9
+print(a1)
+print(type(a1))
+# 并集
+a2 = s8 | s9
+print(a2)
+print(type(a2))
+
