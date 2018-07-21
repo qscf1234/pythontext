@@ -32,3 +32,13 @@ s6 = set([1, 2, 3, 4, 5])
 s6.remove(3)
 print(s6)
 
+# 遍历
+s7 = set([1, 2, 3, 4, 5])
+for i in s7:
+    print(i)
+# set没有索引
+for index, date in enumerate(s7):
+    print(index, date)
+# index没有实际意义
+
+
