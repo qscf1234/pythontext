@@ -5,7 +5,7 @@ while 表达式：
 
 '''
 '''
-while 表达式
+while 表达式：
     语句1
 else：
     语句2
