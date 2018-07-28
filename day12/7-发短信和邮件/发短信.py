@@ -32,8 +32,8 @@ def send_sms(text, mobile):
 
 
 if __name__ == '__main__':
-    mobile = "19909382939"
-    text = "这是我调用python写的，惊不惊喜，意不意外啊小红。"
+    mobile = "13691511449"
+    text = "您的验证码是：987654。请不要把验证码泄露给其他人。"
 
     print(send_sms(text, mobile))
 
